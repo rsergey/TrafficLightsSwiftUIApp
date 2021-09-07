@@ -13,7 +13,6 @@ struct ContentView: View {
     @State private var yellowOpacity = 0.3
     @State private var greenOpacity = 0.3
     
-    
     var body: some View {
         ZStack {
             Color(.black)
