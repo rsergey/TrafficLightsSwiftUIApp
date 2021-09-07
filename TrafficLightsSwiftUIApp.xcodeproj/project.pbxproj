@@ -11,6 +11,8 @@
 		A577744E26E76DE900F2AB2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A577744D26E76DE900F2AB2B /* ContentView.swift */; };
 		A577745026E76DEA00F2AB2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A577744F26E76DEA00F2AB2B /* Assets.xcassets */; };
 		A577745326E76DEA00F2AB2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A577745226E76DEA00F2AB2B /* Preview Assets.xcassets */; };
+		A577745C26E76EDA00F2AB2B /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A577745B26E76EDA00F2AB2B /* ColorCircle.swift */; };
+		A577746526E79C9600F2AB2B /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A577746426E79C9600F2AB2B /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		A577744F26E76DEA00F2AB2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A577745226E76DEA00F2AB2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A577745426E76DEA00F2AB2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A577745B26E76EDA00F2AB2B /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
+		A577746426E79C9600F2AB2B /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				A577744B26E76DE900F2AB2B /* TrafficLightsSwiftUIAppApp.swift */,
 				A577744D26E76DE900F2AB2B /* ContentView.swift */,
+				A577745B26E76EDA00F2AB2B /* ColorCircle.swift */,
+				A577746426E79C9600F2AB2B /* ButtonView.swift */,
 				A577744F26E76DEA00F2AB2B /* Assets.xcassets */,
 				A577745426E76DEA00F2AB2B /* Info.plist */,
 				A577745126E76DEA00F2AB2B /* Preview Content */,
@@ -140,6 +146,8 @@
 			files = (
 				A577744E26E76DE900F2AB2B /* ContentView.swift in Sources */,
 				A577744C26E76DE900F2AB2B /* TrafficLightsSwiftUIAppApp.swift in Sources */,
+				A577746526E79C9600F2AB2B /* ButtonView.swift in Sources */,
+				A577745C26E76EDA00F2AB2B /* ColorCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +288,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Sergey.TrafficLightsSwiftUIApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Sergey.TrafficLightsSwiftUIApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
